@@ -8,6 +8,7 @@
 *.so
 *.dylib
 godotpath-shell
+dotpath
 
 # Test binary, built with `go test -c`
 *.test
