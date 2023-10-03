@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023 froggie <legal@frogg.ie>
+
+SPDX-License-Identifier: OSL-3.0
+-->
+
 # godotpath-shell
 Set your shell's PATH from a file, preserving uniqueness.
 
