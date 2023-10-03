@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: OSL-3.0
 
-godotpath-shell: build
+dotpath: build
 
 build:
 	go build -o dotpath

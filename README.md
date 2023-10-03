@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2023 froggie <legal@frogg.ie>
 SPDX-License-Identifier: OSL-3.0
 -->
 
-# godotpath-shell
+# dotpath
 Set your shell's PATH from a file, preserving uniqueness.
 
 Why? So you can easily configure your shell's PATH and remove duplicate entries, quickly & without fuss.
