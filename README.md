@@ -9,6 +9,8 @@ Set your shell's PATH from a file, preserving uniqueness.
 
 Why? So you can easily configure your shell's PATH and remove duplicate entries, quickly & without fuss.
 
+This Go version adds ~2.57ms to my shell startup time, compared to the 14-22ms I was getting using basic bash functionality.
+
 ## Usage
 
 ```bash
