@@ -12,17 +12,16 @@ Why? So you can easily configure your shell's PATH and remove duplicate entries,
 ## Usage
 
 ```bash
+# Build and run
 make
 eval "$(./dotpath)"
+
 # Test that it worked
 echo $PATH | tr ':' '\n' | sort
-
-# Optional: Add dotpath to your path
-mkdir -p ~/.local/bin
-cp dotpath ~/.local/bin/
 ```
 
 ```
+$ ./dotpath -h
 Usage of ./dotpath:
   -allowInvalid
         Add invalid directories to PATH
@@ -37,6 +36,12 @@ Usage of ./dotpath:
 ## Bash / ZSH / Fish / etc
 
 Add `eval "$(./dotpath)"` to your `~/.bashrc` / whatever your shell's config is called.
+
+```
+# Optional: Add dotpath to your path
+mkdir -p ~/.local/bin
+cp dotpath ~/.local/bin/
+```
 
 ## Configuration
 
