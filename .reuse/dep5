@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: godotenv-shell
+Upstream-Contact: froggie <legal@frogg.ie>
+Source: https://github.com/5HT2C/godotpath-shell
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
