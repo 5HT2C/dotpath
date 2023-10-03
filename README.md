@@ -22,11 +22,6 @@ mkdir -p ~/.local/bin
 cp dotpath ~/.local/bin/
 ```
 
-<details>
-    <summary>
-        `./dotpath -h`
-    </summary>
-
 ```
 Usage of ./dotpath:
   -allowInvalid
@@ -38,7 +33,6 @@ Usage of ./dotpath:
   -path string
         PATH to add onto (default "$PATH")
 ```
-</details>
 
 ## Bash / ZSH / Fish / etc
 
