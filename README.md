@@ -22,6 +22,19 @@ mkdir -p ~/.local/bin
 cp dotpath ~/.local/bin/
 ```
 
+<details><summary>`./dotpath -h`</summary>
+Usage of ./dotpath:
+  -allowInvalid
+        Add invalid directories to PATH
+  -allowMissing
+        Add non-existent directories to PATH (default true)
+  -file string
+        The location of your paths file (default "~/.paths")
+  -path string
+        PATH to add onto (default "$PATH")
+
+</details>
+
 ## Bash / ZSH / Fish / etc
 
 Add `eval "$(./dotpath)"` to your `~/.bashrc` / whatever your shell's config is called.
